@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card {
+  width: 350px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  margin: 40px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.container .card .nft-img {
+  width: 280px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  animation: fadeIn 6s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container .card hr {
+  height: 1px;
+  border-width: 0px;
+  background-color: hsl(215, 32%, 27%);
+}
+.container .card h2 {
+  color: hsl(0, 0%, 100%);
+  margin: 20px 0px;
+  text-align: left;
+}
+.container .card p {
+  color: hsl(215, 51%, 70%);
+  text-align: left;
+  margin-bottom: 20px;
+}
+.container .card .eth {
+  display: inline-block;
+  float: left;
+  margin-right: 4px;
+}
+.container .card h3 {
+  margin-top: 18px;
+  color: aqua;
+  font-size: 14px;
+  text-align: left;
+  animation: fadeIn 7s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.container .card .clock {
+  display: inline-block;
+  float: left;
+  margin-left: 200px;
+  margin-top: -15px;
+  margin-right: 2px;
+}
+.container .card .date {
+  margin-top: -15px;
+}
+.container .card .footer {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+}
+.container .card .footer .png-picture {
+  height: 30px;
+  margin: 0px 2px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.container .card .footer h4 {
+  color: hsl(215, 32%, 27%);
+  font-size: 14px;
+  margin: 0px 6px;
+}
+.container .card .footer span {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */

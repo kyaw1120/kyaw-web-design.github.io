@@ -1,0 +1,150 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Outfit", sans-serif;
+}
+$Soft-blue: hsl(215, 51%, 70%);
+$Cyan-hsl:(178, 100%, 50%);
+$Very-blue : hsl(217, 54%, 11%);
+$Very-blue-card-BG:hsl(216, 50%, 16%);
+$Very-blue-line:hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .card{
+        width: 350px;
+        height:fit-content;
+        background-color: $Very-blue-card-BG;
+        padding: 20px;
+        margin: 40px;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        .nft-img{
+            width: 280px;
+            height: fit-content;
+            border-radius: 10px;
+            animation: fadeIn 6s; 
+            @keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+              }
+        }
+        hr{
+            height: 1px;
+            border-width: 0px;
+            background-color: $Very-blue-line;
+          } 
+        h2{
+            color: $White;
+            margin:  20px 0px;
+            text-align: left;
+            
+           
+              
+              
+        }
+        p{
+            color:$Soft-blue;
+            text-align: left;
+            margin-bottom: 20px;
+            
+        }
+        .eth{
+           display: inline-block;
+           float: left;
+           margin-right: 4px;
+           
+        }
+        h3{
+            margin-top: 18px;
+            color: aqua;
+            font-size: 14px;
+            text-align: left;
+           //fade In amimation
+            animation: fadeIn 7s; 
+            @keyframes fadeIn {
+                0% { opacity: 0; }
+                100% { opacity: 1; }
+              }
+        }
+        .clock{
+            display: inline-block;
+            float: left;
+            margin-left: 200px;
+            margin-top: -15px;
+            margin-right: 2px;
+            // background-color: yellow;
+            }
+        .date{
+            // color: red;
+            margin-top:-15px;
+        }    
+        .footer{
+            margin-top: 18px;
+            display: flex;
+            align-items: center;
+            
+            
+        .png-picture{
+            height: 30px; 
+            
+            margin: 0px 2px;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 50%;
+           } 
+        h4{
+            color: $Very-blue-line;
+            font-size: 14px;
+            margin: 0px 6px;
+        } 
+
+        span{
+            color: $White;
+            font-size: 12px;
+        }
+
+            // .png-picture{
+            //     color: $Soft-blue;
+            //     height: 30px;
+            //     border-radius: 50%;
+            //     margin-top: 12px;
+            //     display: flex;
+            //     justify-content: left;
+            //     background-color: rgb(255, 255, 255);
+            //    }
+            // h4{
+            //     width: 120px;
+            //     // margin-left: 0px;
+            //     // background-color: #bc2b2b;
+            //     color: $Soft-blue;
+            //     font-size: 10px;
+            //     display: flex;
+            //     align-items:flex-start;
+                
+                // span{
+                //     color: $White;
+                //     font-size: 10px;
+                // 
+        
+                }
+            }
+
+        }
+        
+
+    
+
+
+
